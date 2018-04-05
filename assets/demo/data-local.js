@@ -59,8 +59,46 @@ var DatatableDataLocalDemo = function () {
         selector: {class: 'm-checkbox--solid m-checkbox--brand'}
 			},
 			{
+				field: "Seria",
+				title: "#"
+			},
+			{
+				field: "Data",
+				title: "Data e Shitjes",
+				type: "date",
+				format: "MM/DD/YYYY"
+			},
+			{
 				field: "EmSig",
 				title: "Klienti"
+			},
+			{
+				field: "Prej",
+				title: "Prej"
+			},
+			{
+				field: "Deri",
+				title: "Deri"
+			},
+			{
+				field: "ynPako",
+				title: "Pako"
+			},
+			{
+				field: "Primi",
+				title: "Primi"
+			},
+			{
+				field: "Tvsh",
+				title: "TVSH"
+			},
+			{
+				field: "Total",
+				title: "Total"
+			},
+			{
+				field: "EmNgark",
+				title: "Ngarkoi"
 			}
 			// {
 			// 	field: "IDPol",
