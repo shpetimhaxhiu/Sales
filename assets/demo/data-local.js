@@ -134,9 +134,9 @@ var DatatableDataLocalDemo = function () {
 										<i class="la la-ellipsis-h"></i>\
 								</a>\
 								<div class="dropdown-menu dropdown-menu-right">\
-									<a class="dropdown-item" href="#" id=' + row.Seria + '><i class="la la-edit"></i> Edit Details</a>\
-									<a class="dropdown-item" href="#"><i class="la la-leaf"></i> Update Status</a>\
-									<a class="dropdown-item" href="#"><i class="la la-print"></i> Generate Report</a>\
+									<a class="dropdown-item" href="editoPolicen.php?id=' + row.Seria + '"><i class="la la-edit"></i> Ndrysho te dhenat</a>\
+									<a class="dropdown-item" href="#"><i class="la la-leaf"></i> Ndrysho Statusin</a>\
+									<a class="dropdown-item" href="#"  data-toggle="modal" data-target="#m_modal_1"><i class="la la-remove"></i> Fshije Policen</a>\
 								</div>\
 						</div>\
 					';
