@@ -405,13 +405,14 @@
 									<span class="m-option__label">
 										<span class="m-option__head">
 											<span class="m-option__title">
-												Standart Delevery
-											</span>
-											<span class="m-option__focus">
-												Free
+												Seksioni 1
 											</span>
 										</span>
-										<span class="m-option__body">Estimated 14-20 Day Shipping Duties end taxes may be due	upon delivery
+										<span class="m-option__body">
+											Shprenzimet mjeksore perfshire ndihmen urgjente deri:<br><br>
+											<strong>Zona A</strong>: 10,000€<br>
+											<strong>Zona B</strong>: 10,000€<br>
+											<strong>Zona C</strong>: 30,000€<br>
 										</span>
 									</span>
 								</label>
@@ -427,40 +428,42 @@
 									<span class="m-option__label">
 										<span class="m-option__head">
 											<span class="m-option__title">
-												Standart Delevery
-											</span>
-											<span class="m-option__focus">
-												Free
+												Seksioni 2
 											</span>
 										</span>
-										<span class="m-option__body">Estimated 14-20 Day Shipping Duties end taxes may be due	upon delivery
+										<span class="m-option__body">
+											Shpenzime riatdhesimi deri ne:<br><br>
+											<strong>Zona A</strong>: 10,000€<br>
+											<strong>Zona B</strong>: 10,000€<br>
+											<strong>Zona C</strong>: 30,000€<br>
+										</span>
+									</span>
+								</label>
+						</div>
+						<div class="col-lg-4">
+							<label class="m-option">
+									<span class="m-option__control">
+										<span class="m-radio m-radio--state-brand">
+											<input type="radio" name="billing_delivery" value="">
+											<span></span>
+										</span>
+									</span>
+									<span class="m-option__label">
+										<span class="m-option__head">
+											<span class="m-option__title">
+												Seksioni 3
+											</span>
+										</span>
+										<span class="m-option__body">
+											Aksidente personale deri ne:<br><br>
+											<strong>Zona A</strong>: 10,000€<br>
+											<strong>Zona B</strong>: 10,000€<br>
+											<strong>Zona C</strong>: 30,000€<br>
 										</span>
 									</span>
 								</label>
 						</div>
 
-						<div class="col-lg-4">
-							<label class="m-option">
-									<span class="m-option__control">
-										<span class="m-radio m-radio--state-brand">
-											<input type="radio" name="billing_delivery" value="">
-											<span></span>
-										</span>
-									</span>
-									<span class="m-option__label">
-										<span class="m-option__head">
-											<span class="m-option__title">
-												Standart Delevery
-											</span>
-											<span class="m-option__focus">
-												Free
-											</span>
-										</span>
-										<span class="m-option__body">Estimated 14-20 Day Shipping Duties end taxes may be due	upon delivery
-										</span>
-									</span>
-								</label>
-						</div>
 
 
 					</div>
