@@ -1,26 +1,23 @@
 <?php
+
+// Headeri JSON
+header('Content-Type: application/json');
+
  // Database Connection
  $db = new mysqli('127.0.0.1', 'root', 'njeriop', 'test2');
 
-// $dumped = var_dump($db);
-// $serialized = json_encode($dumped);
+// Lista prej MySQL
+$policat = $db->query("SELECT * FROM shu LIMIT 5");
 
-// echo '<pre>',$serialized, '</pre>';
-
-
-$policat = $db->query("SELECT * FROM shu");
-$x = 1;
+// Array e shprazt per me mush pastaj
+$arr = array();
 
 
-// Json Data Preparation
-echo '{"data":[';
-while($polica = $policat->fetch_assoc()) {
-  if($x < $policat->num_rows) {
-    echo json_encode($polica), ',';
-  } else {
-    echo json_encode($polica);
-  }
-  $x++;
+// Mushe array
+while ($x = $policat->fetch_assoc()) {
+  $arr[] = $x;
 }
-echo "]}";
+
+// Kthe JSON Objekte
+echo json_encode($arr);
 ?>
