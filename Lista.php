@@ -165,7 +165,7 @@
 								</div>
 							</div>
 							<div class="col-xl-4 order-1 order-xl-2 m--align-right">
-								<a href="#" class="btn btn-accent m-btn m-btn--custom m-btn--icon m-btn--air m-btn--pill" data-target="#m_modal_4"  data-toggle="modal">
+								<a href="#" class="btn btn-accent m-btn m-btn--custom m-btn--icon m-btn--air m-btn--pill" data-target="#m_modal_4" data-toggle="modal">
 												<span>
 													<i class="la la-plus"></i>
 													<span>
@@ -295,6 +295,8 @@
 							</div>
 
 						</div>
+
+
 						<div class="form-group m-form__group row">
 							<div class="col-lg-5">
 								<label>
@@ -302,17 +304,12 @@
 								</label>
 								<div class="m-input-icon m-input-icon--right">
 									<select class="form-control m-input" name="option">
-												<option value="">
-													Gjermani
-												</option>
-												<option>
-													Austri
-												</option>
-												<option>
-													Norvegji
-												</option>
-											</select>
+										<option value="">Gjermani</option>
+										<option value="">Gjermani</option>
+										<option value="">Gjermani</option>
+									</select>
 								</div>
+
 							</div>
 							<div class="col-lg-7">
 								<label class="">
@@ -334,77 +331,178 @@
 										C - Europa
 										<span></span>
 									</label>
-
-									</div>
+								</div>
 							</div>
 
 						</div>
-					</div>
-					<!-- <div class="form-group m-form__group row">
-						<div class="col-lg-4">
-							<label class="">
-								Postcode:
-							</label>
-							<div class="m-input-icon m-input-icon--right">
-								<input type="text" class="form-control m-input" placeholder="Enter your postcode">
-								<span class="m-input-icon__icon m-input-icon__icon--right">
-									<span>
-										<i class="la la-bookmark-o"></i>
+
+						<div class="form-group m-form__group row">
+
+							<div class="col-lg-5">
+								<label class="">
+									Data e Udhetimit:
+								</label>
+								<div class="m-input-icon m-input-icon--right">
+									<input type="text" class="form-control m-input" value="20/03/1989">
+									<span class="m-input-icon__icon m-input-icon__icon--right">
+										<span>
+											<i class="la la-calendar"></i>
+										</span>
 									</span>
-								</span>
+								</div>
+								<br>
+								<div class="m-input-icon m-input-icon--right">
+									<input type="text" disabled="disabled" class="form-control m-input" value="20/03/1989">
+									<span class="m-input-icon__icon m-input-icon__icon--right">
+										<span>
+											<i class="la la-calendar"></i>
+										</span>
+									</span>
+								</div>
 							</div>
-							<span class="m-form__help">
-								Please enter your postcode
-							</span>
+
+							<div class="col-lg-2">
+								<label class="">
+									Brenda:
+								</label>
+								<div class="m-input-icon m-input-ion--right">
+									<input class="form-control m-input" type="number" value="42" id="example-number-input">
+								</div>
+								<br>
+								<div class="m-input-icon m-input-ion--right">
+									<input class="form-control m-input" type="number" value="42" id="example-number-input">
+								</div>
+							</div>
+
+							<div class="col-lg-5">
+								<div class="row">
+									<label class="">
+										Data e Leshimit:
+									</label>
+									<div class="m-input-icon m-input-icon--right">
+										<input type="text" class="form-control m-input" value="20/03/1989">
+										<span class="m-input-icon__icon m-input-icon__icon--right">
+											<span><i class="la la-calendar"></i></span>
+										</span>
+									</div>
+								</div>
+							</div>
+
+						</div>
+
+
+
+					<!-- start: rreshti parafundit  -->
+					<div class="form-group m-form__group row">
+						<div class="col-lg-4">
+							<label class="m-option">
+									<span class="m-option__control">
+										<span class="m-radio m-radio--state-brand">
+											<input type="radio" name="billing_delivery" value="">
+											<span></span>
+										</span>
+									</span>
+									<span class="m-option__label">
+										<span class="m-option__head">
+											<span class="m-option__title">
+												Standart Delevery
+											</span>
+											<span class="m-option__focus">
+												Free
+											</span>
+										</span>
+										<span class="m-option__body">Estimated 14-20 Day Shipping Duties end taxes may be due	upon delivery
+										</span>
+									</span>
+								</label>
 						</div>
 						<div class="col-lg-4">
-							<label class="">
-								User Group:
-							</label>
-							<div class="m-radio-inline">
-								<label class="m-radio m-radio--solid">
-									<input type="radio" name="example_2" checked="" value="2">
-									Sales Person
-									<span></span>
+							<label class="m-option">
+									<span class="m-option__control">
+										<span class="m-radio m-radio--state-brand">
+											<input type="radio" name="billing_delivery" value="">
+											<span></span>
+										</span>
+									</span>
+									<span class="m-option__label">
+										<span class="m-option__head">
+											<span class="m-option__title">
+												Standart Delevery
+											</span>
+											<span class="m-option__focus">
+												Free
+											</span>
+										</span>
+										<span class="m-option__body">Estimated 14-20 Day Shipping Duties end taxes may be due	upon delivery
+										</span>
+									</span>
 								</label>
-								<label class="m-radio m-radio--solid">
-									<input type="radio" name="example_2" value="2">
-									Customer
-									<span></span>
-								</label>
-							</div>
-							<span class="m-form__help">
-								Please select user group
-							</span>
 						</div>
-					</div> -->
-					<!-- <div class="m-portlet__foot m-portlet__no-border m-portlet__foot--fit">
-						<div class="m-form__actions m-form__actions--solid">
-							<div class="row">
-								<div class="col-lg-4"></div>
-								<div class="col-lg-8">
-									<button type="reset" class="btn btn-primary">
-										Submit
-									</button>
-									<button type="reset" class="btn btn-secondary">
-										Cancel
-									</button>
+
+						<div class="col-lg-4">
+							<label class="m-option">
+									<span class="m-option__control">
+										<span class="m-radio m-radio--state-brand">
+											<input type="radio" name="billing_delivery" value="">
+											<span></span>
+										</span>
+									</span>
+									<span class="m-option__label">
+										<span class="m-option__head">
+											<span class="m-option__title">
+												Standart Delevery
+											</span>
+											<span class="m-option__focus">
+												Free
+											</span>
+										</span>
+										<span class="m-option__body">Estimated 14-20 Day Shipping Duties end taxes may be due	upon delivery
+										</span>
+									</span>
+								</label>
+						</div>
+
+
+					</div>
+					<!-- finish: rreshti parafundit  -->
+
+					<!-- start: rreshti fundit  -->
+					<div class="form-group m-form__group row">
+						<div class="col-lg-12">
+							<div class="form-group m-form__group row">
+								<label class="col-form-label col-lg-8 col-sm-12">
+										Primi
+									</label>
+								<div class="col-lg-4 col-md-4 col-sm-12">
+									<input class="form-control m-input" type="number" value="42" id="example-number-input">
+								</div>
+							</div>
+							<div class="form-group m-form__group row">
+								<label class="col-form-label col-lg-8 col-sm-12">
+										TVSH
+									</label>
+								<div class="col-lg-4 col-md-4 col-sm-12">
+									<input class="form-control m-input" type="number" value="42" id="example-number-input"><br>
+									<input class="form-control m-input" type="number" value="42" id="example-number-input" disabled="disabled">
+								</div>
+							</div>
+							<div class="form-group m-form__group row">
+								<label class="col-form-label col-lg-8 col-sm-12">
+										Total
+									</label>
+								<div class="col-lg-4 col-md-4 col-sm-12">
+									<input class="form-control m-input" type="number" value="42" id="example-number-input">
 								</div>
 							</div>
 						</div>
-					</div> -->
-				</form>
-			</div>
-			<div class="modal-footer">
-				<button type="button" class="btn btn-secondary" data-dismiss="modal">
-					Close
-				</button>
-				<button type="button" class="btn btn-primary">
-					Send message
-				</button>
+					</div>
+					<!-- finish: rreshti fundit  -->
+
+
 			</div>
 		</div>
 	</div>
+
 </div>
 
 
