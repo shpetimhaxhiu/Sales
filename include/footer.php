@@ -109,11 +109,11 @@
 		</div>
 		<!-- end::Scroll Top -->
     	<!--begin::Base Scripts -->
-		<script src="assets/vendors/base/vendors.bundle.js" type="text/javascript"></script>
-		<script src="assets/demo/demo10/base/scripts.bundle.js" type="text/javascript"></script>
+		<script src="/Sales/assets/vendors/base/vendors.bundle.js" type="text/javascript"></script>
+		<script src="/Sales/assets/demo/demo10/base/scripts.bundle.js" type="text/javascript"></script>
 		<!--end::Base Scripts -->
 
-		<script src="assets/demo/data-local.js" type="text/javascript"></script>
+		<script src="/Sales/assets/demo/data-local.js" type="text/javascript"></script>
 
 	</body>
 	<!-- end::Body -->

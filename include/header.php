@@ -21,10 +21,10 @@
 		</script>
 		<!--end::Web font -->
         <!--begin::Base Styles -->
-		<link href="assets/vendors/base/vendors.bundle.css" rel="stylesheet" type="text/css" />
-		<link href="assets/demo/demo10/base/style.bundle.css" rel="stylesheet" type="text/css" />
+		<link href="/Sales/assets/vendors/base/vendors.bundle.css" rel="stylesheet" type="text/css" />
+		<link href="/Sales/assets/demo/demo10/base/style.bundle.css" rel="stylesheet" type="text/css" />
 		<!--end::Base Styles -->
-		<link rel="shortcut icon" href="assets/demo10/demo/media/img/logo/favicon.ico" />
+		<link rel="shortcut icon" href="/Sales/assets/demo10/demo/media/img/logo/favicon.ico" />
 	</head>
 	<!-- end::Head -->
     <!-- end::Body -->
