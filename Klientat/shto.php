@@ -38,17 +38,8 @@ include '../include/header.php';
 				<div class="m-portlet__body">
 
           <!-- body -->
-          <form class="m-form m-form--fit m-form--label-align-right">
+          <form class="m-form m-form--fit m-form--label-align-right" method="post" action="ruaj.php">
 						<div class="m-portlet__body">
-							<div class="form-group m-form__group m--margin-top-10">
-								<div class="alert m-alert m-alert--default" role="alert">
-									Here are examples of
-									<code>
-									.form-control
-								</code>
-								applied to each textual HTML5 input type:
-							</div>
-						</div>
             <div class="form-group m-form__group row">
 							<label for="emri" class="col-2 col-form-label">
 								Emri
@@ -174,7 +165,7 @@ include '../include/header.php';
 							<div class="row">
 								<div class="col-2"></div>
 								<div class="col-10">
-									<button type="reset" class="btn btn-success">
+									<button type="submit" class="btn btn-success" name="submit" value="ruaj">
 										Regjistro
 									</button>
 									<button type="reset" class="btn btn-secondary">

@@ -4,7 +4,7 @@
 header('Content-Type: application/json');
 
  // Database Connection
- $db = new mysqli('127.0.0.1', 'root', 'njeriop', 'test2');
+ $db = new mysqli('127.0.0.1', 'root', 'njeriop123!@#', 'test2');
 
 // Lista prej MySQL
 $policat = $db->query("SELECT * FROM shu LIMIT 5");
