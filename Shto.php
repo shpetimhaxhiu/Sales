@@ -1,9 +1,44 @@
 
 <?php
-include 'include/header.php'; ?>
+require 'include/Classes/Database.php';
+require 'include/header.php';
+
+if($_POST) {
+
+
+
+
+}
+$db = new Database();
+$db = $db->lidhja();
+
+$sql = "SELECT * from shu limit 10;";
+
+if ($db->query($sql)) {
+    foreach($db->query($sql) as $row) {
+      echo $row["EmSig"], "<br>";
+    }
+    echo "New record created successfully";
+} else {
+    echo "Error: " . $sql . "<br>" . $db->error;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+?>
 <!-- begin::Body -->
 <div class="m-grid__item m-grid__item--fluid  m-grid m-grid--ver-desktop m-grid--desktop m-page__container m-body">
-	<div class="m-grid__item m-grid__item--fluid m-wrapper">
+	<div class="m-grid__item m-grid__item--fuid m-wrapper">
 		<!-- BEGIN: Subheader -->
 		<div class="m-subheader ">
 			<div class="d-flex align-items-center">
@@ -34,16 +69,16 @@ include 'include/header.php'; ?>
 		<!-- END: Subheader -->
 		<div class="m-content">
 
-      <form class="m-form m-form--fit m-form--label-align-right m-form--group-seperator-dashed">
+      <form class="m-form m-form--fit m-form--label-align-right m-form--group-seperator-dashed" method="post">
         <div class="m-portlet__body">
           <div class="form-group m-form__group row">
 
             <div class="col-lg-6">
-              <label>
+              <label for="EmSig">
                 Emri dhe Mbiemri:
               </label>
               <div class="m-input-icon m-input-icon--right">
-                <input type="text" class="form-control m-input" placeholder="Emri dhe mbiemri">
+                <input type="text" class="form-control m-input" placeholder="Emri dhe mbiemri" name="EmSig" id="EmSig" >
                 <span class="m-input-icon__icon m-input-icon__icon--right">
                   <span>
                     <i class="la la-user"></i>
@@ -52,11 +87,11 @@ include 'include/header.php'; ?>
               </div>
             </div>
             <div class="col-lg-6">
-              <label class="">
+              <label class="" for="PasSig">
                 Numri i Pasaportes:
               </label>
               <div class="m-input-icon m-input-icon--right">
-                <input type="text" class="form-control m-input" placeholder="Emri dhe mbiemri">
+                <input type="text" class="form-control m-input" placeholder="Nr. i Pasaportes" name="PasSig" id="PasSig">
                 <span class="m-input-icon__icon m-input-icon__icon--right">
                   <span>
                     <i class="la la-file"></i>
@@ -67,7 +102,7 @@ include 'include/header.php'; ?>
           </div>
           <div class="form-group m-form__group row">
             <div class="col-lg-6">
-              <label class="">
+              <label class="" for="DtLindSig">
                 Datelindja:
               </label>
               <div class="m-input-icon m-input-icon--right">
@@ -302,7 +337,16 @@ include 'include/header.php'; ?>
           </div>
         </div>
         <!-- finish: rreshti fundit  -->
-
+        <div class="form-group m-form__group row">
+          <div class="col-lg-12">
+            <div class="form-group m-form__group row">
+              <div class="col-lg-12 col-md-12 col-sm-12 text-right">
+                <button name="button" type="reset" class="btn btn-secondary btn-lg">Anulo</button>
+                <button name="button" type="submit" class="btn btn-success btn-lg">Ruaj</button>
+              </div>
+            </div>
+          </div>
+        </div>
 
 		</div>
 	</div>
